@@ -1,5 +1,3 @@
-# student database
-
 create table if not exists student (
 	id identity,
 	jmbag varchar(10) not null unique,
